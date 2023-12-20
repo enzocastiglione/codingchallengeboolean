@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scooter Lim</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="container">
+       
+        <!--Logo e parte header-->
+        <header>
+            <img id="logo" src="logo.png">
+            <span>Taking Booleaners from A to B</span>
+        </header>
+
+        <!--Menù button navigazione-->
+        <nav>
+            <button type="button" name="Prenota">Prenota</button>
+            <button type="button" name="Termina Prenotazione">Termina Prenotazione</button>
+            <button type="button" name="Accendi Luci">Accendi Luci</button>
+        </nav>
+
+        <main>
+            <!--Primo scooter più vicino-->
+            <section class="scooter">
+                <input type="checkbox" name="selezione-scooter">
+                <span class="scooter-name">Scooter Lino#7849</span>
+                <span class="distance"><span class="arrow"> </span>Via Lazio - a 140 metri da te</span>
+                <div>Stato carica: 50%</div>
+                <div class="medium-bar"></div>
+            </section>
+
+            <!--Secondo scooter per posizione-->
+            <section class="scooter">
+                    <input type="checkbox" name="selezione-scooter">
+                    <span class="scooter-name">Scooter Pio#1123</span>
+                    <span class="distance"><span class="arrow"> </span>Via Mannino - a 320 metri da te</span>
+                    <div>Stato carica: 100%</div>
+                    <div class="full-bar"></div>
+            </section>
+
+            <!--Terzo scooter per posizione-->
+           <section class="scooter">
+                <input type="checkbox" name="selezione-scooter">
+                <span class="scooter-name">Scooter Tommy#7352</span>
+                <span class="distance"><span class="arrow"> </span>Via Palermo - a 370 metri da te</span>
+                <div>Stato carica: 20%</div>
+                <div class="low-bar"></div>
+           </section>
+        </main>
+    </div>
+</body>
+</html>
